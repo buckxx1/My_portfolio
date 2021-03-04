@@ -28,6 +28,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    width: 100%;
     background-color: #ffffff;
     box-shadow:2px 2px 12px rgba(0, 0, 0, 0.2);
     padding: 0px 5%;
@@ -114,13 +115,13 @@ button:active{
     transform: translateX(-70%);
 }
 .work-container{
-    width: 80%;
-    height: 350px;
+    width: 40%;
+    height: 100px;
     background-color: red;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     display: flex;
-    margin-top: 1000px;
+    
     position: relative;
 }
 .work-container img{
