@@ -20,6 +20,10 @@ section{
 }
 
 nav{
+    /*position fixed and top 0 should make it a 
+    nav bar that is permenant */
+    position: fixed;
+    top: 0px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -104,8 +108,21 @@ button:active{
 .myphoto{
     height: 700px;
     position: absolute;
-    top: 120px;
-    left: 65%;
+    bottom: 40px;
+    left: 70%;
     border-radius: 5px;
-    transform: translateX(-65%);
+    transform: translateX(-70%);
+}
+.work-container{
+    width: 80%;
+    height: 350px;
+    background-color: red;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin-top: 1000px;
+    position: relative;
+}
+.work-container img{
+    height: 250px;
 }
