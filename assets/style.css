@@ -60,22 +60,21 @@ nav ul li a{
     font-size: 25px;
     font-weight: bold;
     font-family: "calibri";
-    line-height: 0px;
+    
     margin: 45px 0px 25px;
-    text-shadow: seashell 2px;
-    float: left;
+    text-shadow: seashell 2px 2px;
+    
     
     
 }
 .text-container{
-    position: relative;
-    left: 10%;
-    top:42%;
-    transform:translate(-13%,-42%);
-    background-color: #ffffff;
+    
+    
     border-radius: 5px;
     padding: 5px 5px 5px 5px;
-    opacity: 80%;
+    
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -97,10 +96,10 @@ nav ul li a{
 
 
 .myphoto{
-    float: none;
+    
     height: 600px;
-    position: relative;
-    bottom: 120px;
+    
+
     
     border-radius: 5px;
     
@@ -176,14 +175,6 @@ nav ul li a{
 }
 /* Media query for compatability with smaller stuff*/
 @media (max-width: 768px){
-    .myphoto{
-        max-height: 400px;
-        height: 200px;
-        position: relative;
-        bottom: 120px;
-        left: 85%;
-        border-radius: 5px;
-        transform: translateX(-70%);
-    }
+    
 
 }
