@@ -147,3 +147,7 @@ button:active{
     float: right;
     width: 100%;
 }
+.footer-container img{
+    height: 50px;
+    width: 50px;
+}
