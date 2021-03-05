@@ -63,11 +63,12 @@ nav ul li a{
     line-height: 0px;
     margin: 45px 0px 25px;
     text-shadow: seashell 2px;
+    float: left;
     
     
 }
 .text-container{
-    position: absolute;
+    position: relative;
     left: 10%;
     top:42%;
     transform:translate(-13%,-42%);
@@ -91,17 +92,18 @@ nav ul li a{
     outline: none;
     margin: 5px 5px;
     padding: 5px 5px 5px 5px;
+    
 }
-button:active{
-    transform: scale(1.2);
-}
+
+
 .myphoto{
+    float: none;
     height: 600px;
-    position: absolute;
+    position: relative;
     bottom: 120px;
-    left: 85%;
+    
     border-radius: 5px;
-    transform: translateX(-70%);
+    
 }
 /* boxes for future projects*/
 .box-1, .box-2, .box-3, .box-4, .box-5{
@@ -171,4 +173,17 @@ button:active{
     border-radius: 5px;
     
     
+}
+/* Media query for compatability with smaller stuff*/
+@media (max-width: 768px){
+    .myphoto{
+        max-height: 400px;
+        height: 200px;
+        position: relative;
+        bottom: 120px;
+        left: 85%;
+        border-radius: 5px;
+        transform: translateX(-70%);
+    }
+
 }
