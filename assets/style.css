@@ -83,10 +83,7 @@ nav ul li a{
     outline: none;
     margin: 0px 0px;
 }
-.hire-btn{
-    border:2px solid #373636;
-    color: #373636;
-}
+
 .download-resume-btn{
     background-color: #0b0b0b;
     color: #ffffff;
@@ -146,9 +143,7 @@ button:active{
     background-color: #999;
 }
 .footer-container {
-    width: 50%;
+    
     float: right;
-    @media (max-width: 600px) {
-        width: 100%;
-    }
+    width: 100%;
 }
